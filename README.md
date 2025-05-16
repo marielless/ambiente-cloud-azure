@@ -68,6 +68,77 @@ Repositório com anotações pessoais das aulas **AZ-900: Microsoft Azure Fundam
 - **Nuvem Híbrida**: Indicada para empresas que precisam equilibrar dados sensíveis com serviços escaláveis na nuvem.
 
 ---
+## Benefícios da Nuvem
+
+### SLA
+![Image](https://github.com/user-attachments/assets/e83fee5e-0b89-418c-b569-e42adf35f530)
+
+### Domínio do Objetivo
+
+> Descrever os benefícios da segurança, governança e capacidade de gerenciamento na nuvem
+
+---
+
+### Alta Disponibilidade
+- Garante **acesso contínuo** aos serviços mesmo em falhas.
+- Foco na **máxima disponibilidade**.
+
+---
+
+###  Escalabilidade
+- Ajuste de recursos para atender à demanda.
+- Escala vertical: adicionar CPU/RAM.
+- Otimiza custos: paga-se **somente pelo que usa**.
+
+---
+
+### Elasticidade
+- **Expansão e redução automática** dos recursos.
+- Adição de VMs ou contêineres conforme necessidade.
+- Redução automática durante baixa demanda.
+
+---
+
+### Confiabilidade
+- Design descentralizado e resiliente.
+- Recursos disponíveis em múltiplas regiões.
+- Suporte a escala global.
+
+---
+
+### Previsibilidade
+- Consistência em **desempenho** e **custos**.
+- Guiada pelo **Microsoft Azure Well-Architected Framework**.
+
+---
+
+### Segurança
+- Ferramentas avançadas de segurança.
+- Patches automáticos (PaaS) e monitoramento.
+- Implementações também são responsabilidade do cliente.
+
+---
+
+### Governança
+- Auditoria contínua para identificar não conformidades.
+- Aplicação automática de atualizações e patches.
+- Governança proativa = ambiente atualizado e seguro.
+
+---
+
+###  Gerenciabilidade
+
+#### Dois tipos principais:
+
+1. **Gerenciamento de Recursos**
+   - um dos principais beneficios da computação em nuvem são as opções de capacidade de gerenciamento. Há dois tipos de capacidade de gerenciamento para computação em nuvem
+
+   > O gerenciamento da nuvem diz respeito a gerenciar seus recursos de nuvem. 
+**Exemplo:**
+   - Escalar automaticamente a implatação de recursos com base na necessidade.
+   - Implantar recursos com base em um modelo pré-configurado, removendo a necessidade de configuração manual
+---
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-FFC0CB?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marielle-santos-3abb14275/)
 [![E-mail](https://img.shields.io/badge/-Email-FFC0CB?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:mariellesantos96@hotmail.com)
