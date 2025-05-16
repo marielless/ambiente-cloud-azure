@@ -138,6 +138,25 @@ Repositório com anotações pessoais das aulas **AZ-900: Microsoft Azure Fundam
    - Escalar automaticamente a implatação de recursos com base na necessidade.
    - Implantar recursos com base em um modelo pré-configurado, removendo a necessidade de configuração manual
 ---
+## CONCEITOS DE NUVEM
+
+### Tipos de serviço em nuvem:
+
+**IaaS (Infraestrutura como Serviço):**
+- Infraestrutura de TI com pagamento conforme o uso, alugando servidores, máquinas virtuais, armazenamento, redes e sistemas operacionais de um provedor de nuvem.
+- Serviço de nuvem mais flexível.
+- Você configura e gerencia o hardware para o seu aplicativo.
+
+**PaaS (Plataforma como Serviço):**
+- Fornece um ambiente para a criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
+- Focado no desenvolvimento de aplicativos.
+- O gerenciamento da plataforma é realizado pelo provedor de nuvem.
+
+**SaaS (Software como Serviço):**
+- Os usuários se conectam e usam aplicativos baseados em nuvem pela internet.  
+  **Exemplo:** Microsoft Office 365, e-mail e calendários.
+- Modelo de preço com pagamento conforme o uso.
+- Os usuários pagam pelo software que utilizam em um modelo de assinatura.
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-FFC0CB?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marielle-santos-3abb14275/)
