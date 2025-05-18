@@ -220,5 +220,99 @@ Repositório com anotações pessoais das aulas **AZ-900: Microsoft Azure Fundam
 - Podem incluir várias assinaturas do Azure.
 - As assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
 
+## Computação e Rede no Azure
 
+### Serviços de Computação do Azure
+Serviços sob demanda que fornecem recursos como:
+- Discos
+- Processadores
+- Memória
+- Rede
+- Sistemas operacionais
+
+### Máquinas Virtuais do Azure (VMs)
+- Emulações de software de computadores físicos.
+- Incluem CPU virtual, memória, armazenamento e rede.
+- Oferta de **IaaS** com controle e personalização total.
+
+### Conjuntos de Dimensionamento de VMs
+- Permitem escalabilidade automática com balanceamento de carga dinâmico.
+
+### Área de Trabalho Virtual do Azure
+- Virtualização de desktops e aplicativos baseada em nuvem.
+- Elimina a necessidade de servidores gateway.
+- Suporte a várias sessões simultâneas.
+- Reduz o risco de recursos ociosos.
+
+### Serviços de Contêineres do Azure
+Oferecem ambientes leves, virtualizados e responsivos sob demanda:
+- **Instâncias de Contêiner do Azure**: PaaS para execução de contêineres individuais ou pods.
+- **Aplicativos de Contêiner do Azure**: PaaS com balanceamento de carga e escalabilidade.
+- **Serviço de Kubernetes do Azure (AKS)**: Orquestração de contêineres para arquiteturas distribuídas e escaláveis.
+
+### Azure Functions
+- Computação **serverless** (sem servidor).
+- Executa código com base em eventos, sem necessidade de infraestrutura ativa o tempo todo.
+- Oferta **PaaS** com foco em economia e escalabilidade.
+
+---
+
+### Máquinas Virtuais
+
+- Servidores baseados em nuvem, compatíveis com Windows ou Linux.
+- Recomendadas para migrações do tipo *lift-and-shift*.
+- Incluem o sistema operacional completo (guest + host).
+
+---
+
+### Área de Trabalho Virtual
+
+- Fornece uma experiência completa de desktop do Windows na nuvem.
+- Aplicativos acessíveis por cliente dedicado ou navegadores modernos.
+- Suporte a logins simultâneos de vários usuários em uma única instância.
+
+---
+
+### Contêineres
+
+- Ambientes compactos ideais para **microsserviços**.
+- Criados para escalabilidade e resiliência.
+- **AKS** empacota serviços em contêineres executados sobre o SO do host.
+- Vários contêineres podem compartilhar o mesmo host.
+
+---
+
+### Serviços de Aplicativos do Azure
+
+- Plataforma **PaaS totalmente gerenciada** para desenvolvimento rápido de Web Apps e APIs.
+- Suporte a linguagens como: `.NET`, `.NET Core`, `Node.js`, `Java`, `Python` e `PHP`.
+- Atende requisitos corporativos de desempenho, segurança e conformidade.
+
+---
+
+## Serviços de Rede do Azure
+
+### Rede Virtual do Azure (VNet)
+- Conecta recursos entre si, com a internet e com redes locais.
+- Suporte a:
+  - **Pontos de extremidade públicos** (acesso global)
+  - **Pontos de extremidade privados** (acesso restrito à rede)
+  - **Sub-redes** para segmentação personalizada
+  - **Emparelhamento de redes** para conexão direta entre VNets
+
+### Gateway de VPN
+- Trafego criptografado entre o Azure e o ambiente local via internet pública.
+
+### ExpressRoute
+- Conexão privada entre redes locais e o Azure com alta segurança e confiabilidade.
+
+---
+
+## DNS do Azure
+
+- **Alta confiabilidade e desempenho**, com rede Anycast global.
+- **Segurança** via RBAC (controle de acesso baseado em função) e monitoramento nativo.
+- **Gerenciamento unificado** de recursos internos e externos com um único serviço DNS.
+- **Domínios personalizados** para redes privadas virtuais.
+- **Registros de alias** que apontam diretamente para recursos do Azure.
 
